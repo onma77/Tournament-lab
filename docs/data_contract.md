@@ -1,7 +1,7 @@
 # TournamentLab: Data Contract
 
-**Engineer A (Onma):** teams, fixtures, storage
-**Engineer B (Joy):** results, standings, champion, CLI
+**Engineer A (Peace):** teams, fixtures, storage
+**Engineer B (David):** results, standings, champion, CLI
 
 Both engineers code against this document. If something needs to change, update this file in a PR and get the other engineer's approval before changing any code.
 
