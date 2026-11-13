@@ -28,7 +28,7 @@ MENU = """
 8. Load
 9. Show champion
 10. Simulate demo fixtures
-11. Quit
+0. Quit
 ==========================="""
 
 def new_tournament():
@@ -181,7 +181,7 @@ ACTIONS = {
 }
 
 def run():
-    """Show the menu until the use quites."""
+    """Show the menu until the user quits."""
     data = new_tournament()
     print("Welcome to TournamentLab!")
     try:
