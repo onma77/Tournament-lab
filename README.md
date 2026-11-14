@@ -5,7 +5,7 @@ A command-line esports league manager written in Python. Register 4 to 8 teams, 
 The focus of the project is **fairness**: a bad score can never corrupt the table, no pair of teams can meet twice, and tied teams are always ranked the same predictable way.
 
 **Team**
-- Engineer A, `Peace Onma Oigoga`: teams, fixtures, storage
+- Engineer A, `Onma Peace Oigoga`: teams, fixtures, storage
 - Engineer B, `Terngu David Ayande`: results, standings, champion, CLI
 
 ---
