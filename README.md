@@ -107,7 +107,7 @@ Option 10 fills the pending fixtures with random scores so you can preview a fin
 python3 -m unittest discover -s tests -v
 ```
 
-Tests are written with `unittest` and build their own small data, so they do not depend on each other.
+There are 64 tests. They are written with `unittest` and build their own small data, so they do not depend on each other. Saved files in tests use `tempfile`.
 
 | File | What it covers |
 |---|---|
@@ -116,6 +116,7 @@ Tests are written with `unittest` and build their own small data, so they do not
 | `tests/test_storages.py` | Save/load round trip, rejecting invalid files without changing state |
 | `tests/test_results.py` | Valid scores, zero scores, rejecting negative/float/string/bool scores, unknown and duplicate fixtures, rejections change nothing |
 | `tests/test_standings.py` | Wins/draws/losses, 3/1/0 points, goals and goal difference, every tie-breaker, recomputation, champion rules |
+| `tests/test_integration.py` | Teams, fixtures, results and storage together: reloading a saved season gives the same IDs and an identical league table |
 
 ---
 
