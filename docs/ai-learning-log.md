@@ -31,4 +31,4 @@
 
 ## Engineer B (David)
 
-(David fills this in.)
+See `ai-learning-log-engineer-b.md`.

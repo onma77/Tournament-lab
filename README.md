@@ -162,6 +162,8 @@ Tournament-lab/
 ├── docs/
 │   ├── data_contract.md    # agreed data shapes and function contracts
 │   ├── design-decisions.md # why we made key choices
-│   └── ai-learning-log.md  # each engineer's AI learning cycles
+│   │── demo-season.md                # demo season walkthrough and test output
+│   ├── ai-learning-log.md            # Engineer A's AI learning cycles
+│   └── ai-learning-log-engineer-b.md # Engineer B's AI learning cycles
 └── README.md
 ```
