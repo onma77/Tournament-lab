@@ -126,7 +126,7 @@ def do_standings(data):
 def do_save(data):
     filename = ask_filename()
     save_tournament(data, filename)
-    print(f"saved to {filename}.")
+    print(f"Saved to {filename}.")
 
 
 def do_load(data):
